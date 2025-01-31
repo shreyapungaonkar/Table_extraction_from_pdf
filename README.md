@@ -1,5 +1,7 @@
-PDF Table Extraction using Tabula & PDFPlumber
+PDF Table Extraction using Tabula-Py Library.
+
 Overview
+
 This project extracts tables from PDF documents using tabula-py and saves them as separate Excel files.
 It helps automate data extraction from structured PDF documents.
 
@@ -9,6 +11,7 @@ Features
 3. Supports multi-page PDFs.
 
 Installation
+
 Ensure you have Python and the required dependencies installed:
 
 !pip install tabula-py pandas openpyxl 
@@ -21,7 +24,9 @@ Ensure the PDF file you want to process is available in the directory.
 tabula_method.ipynb → Uses tabula-py for extraction.
 
 3. Extracted tables will be saved automatically
+   
 The extracted tables will be stored in:
 
 extracted_tables_from_pdf/ 
+
 Each table is saved as a separate .xlsx file.
